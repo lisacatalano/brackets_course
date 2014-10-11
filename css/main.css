@@ -97,8 +97,18 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #444;
+  width: 95%;
+  margin: auto;
+  max-width: 1000px;
+}
 
-
+h1 {
+  font-size: 3.5em;
+  font-weight: 600;
+}
 
 
 
@@ -301,4 +311,21 @@ textarea {
     h3 {
         page-break-after: avoid;
     }
+}
+
+/* ==========================================================================
+   Quick Edit Styles - MOVE 
+   ========================================================================== */
+
+
+h1 img {
+  width: 96px;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-weight: 300;
 }
