@@ -97,6 +97,9 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+* {
+  box-sizing: border-box;
+}
 body {
   font-family: 'Source Sans Pro', sans-serif;
   color: #444;
@@ -110,6 +113,29 @@ h1 {
   font-weight: 600;
 }
 
+
+h1 img {
+  width: 96px;
+}
+
+h2 {
+  font-size: 2em;
+  clear: both;
+}
+
+h3 {
+  font-weight: 300;
+}
+
+.shortcuts, .notes { 
+  width: 49%;
+  float: left;
+  padding: 10px;
+}
+
+.notes {
+  background-color: #eee;
+}
 
 
 
@@ -317,15 +343,3 @@ h1 {
    Quick Edit Styles - MOVE 
    ========================================================================== */
 
-
-h1 img {
-  width: 96px;
-}
-
-h2 {
-  font-size: 2em;
-}
-
-h3 {
-  font-weight: 300;
-}
