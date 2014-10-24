@@ -111,6 +111,7 @@ body {
 h1 {
   font-size: 3.5em;
   font-weight: 600;
+  margin: .4em auto;
 }
 
 
@@ -130,14 +131,33 @@ h3 {
 .shortcuts, .notes { 
   width: 49%;
   float: left;
-  padding: 10px;
+  padding: 0 10px;
+}
+
+.shortcuts strong {
+  display: inline-block;
+  width: 135px;
+  text-align: right;
+  padding-right: 8px;
 }
 
 .notes {
   background-color: #eee;
 }
 
+.shortcuts ul {
+  list-style: none;
+  line-height: 2;
+  padding-left: 0;
+}
 
+.notes ul {
+  padding-left: 25px;
+}
+
+.notes li {
+  margin-bottom: .5em;
+}
 
 
 
