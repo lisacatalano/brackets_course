@@ -121,8 +121,20 @@ h1 img {
 
 h2 {
   font-size: 2em;
-  clear: both;
+  padding-left: 60px;
+  background: url(../img/icons_gray.png) no-repeat 0 3px;
 }
+
+.files    { background-position: 0 -40px; }
+.edit     { background-position: 0 -80px; }
+.cursor   { background-position: 0 -120px; }
+.select   { background-position: 0 -160px; }
+.move     { background-position: 0 -200px; }
+.quick    { background-position: 0 -240px; }
+.find     { background-position: 0 -280px; }
+.multiple { background-position: 0 -320px; }
+.navigate { background-position: 0 -360px; }
+
 
 h3 {
   font-weight: 300;

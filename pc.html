@@ -22,8 +22,8 @@
   <h1><img src="img/Brackets_icon.svg">Brackets Cheat Sheet – PC</h1>
   
   <div class="main">
-    <section>
-      <h2>Workspace</h2>
+    <section class="clearfix">
+      <h2 class="workspace" tabindex="1">Workspace</h2>
       <div class="shortcuts">
         <h3>Keyboard Shortcuts</h3>
         <ul>
@@ -49,8 +49,8 @@
       </div>
     </section>
     
-    <section>
-      <h2>Opening Closing/Files</h2>
+    <section class="clearfix">
+      <h2 class="files" tabindex="1">Opening Closing/Files</h2>
       <div class="shortcuts">
         <h3>Keyboard Shortcuts</h3>
         <ul>
@@ -75,8 +75,8 @@
       </div>    
     </section>
     
-    <section>
-      <h2>Writing/Editing Code</h2>
+    <section class="clearfix">
+      <h2 class="edit" tabindex="1">Writing/Editing Code</h2>
       <div class="shortcuts">
         <h3>Keyboard Shortcuts</h3>
         <ul>
@@ -101,8 +101,8 @@
       </div>    
     </section>
 
-    <section>
-      <h2>Cursor Placement</h2>
+    <section class="clearfix">
+      <h2 class="cursor" tabindex="1">Cursor Placement</h2>
       <div class="shortcuts">
         <h3>PC Keyboard Shortcuts</h3>
         <ul>
@@ -122,8 +122,8 @@
       </div>    
     </section>
 
-    <section>
-      <h2>Selecting Code</h2>
+    <section class="clearfix">
+      <h2 class="select" tabindex="1">Selecting Code</h2>
       <div class="shortcuts">
         <h3>PC Keyboard Shortcuts</h3>
         <ul>
@@ -151,7 +151,7 @@
       </div>  
     </section>
 
-    <section>
+    <section class="clearfix">
       <h2 class="move" tabindex="1">Moving Code</h2>
       <div class="shortcuts">
         <h3>Keyboard Shortcuts</h3>
@@ -166,8 +166,8 @@
       </div>    
     </section>    
     
-    <section>
-      <h2>Quick Edit</h2>
+    <section class="clearfix">
+      <h2 class="quick" tabindex="1">Quick Edit</h2>
       <div class="shortcuts">
         <h3>Keyboard Shortcuts</h3>
           <ul>
@@ -190,8 +190,8 @@
       </div>    
     </section>
 
-    <section>
-      <h2>Find & Replace</h2>
+    <section class="clearfix">
+      <h2 class="find" tabindex="1">Find & Replace</h2>
       <div class="shortcuts">
         <h3>Keyboard Shortcuts</h3>
         <ul>
@@ -213,6 +213,57 @@
         </ul>
       </div>
     </section>      
+    
+    <section class="clearfix">
+      <h2 class="multiple" tabindex="1">Multiple Cursors</h2>
+      <div class="shortcuts">
+      <h3>Keyboard Shotcuts</h3>
+        <ul>
+          <li><strong>Ctrl+B</strong> Add next match to your selection</li>
+          <li><strong>Ctrl+Shift+B</strong> Skip and add next match</li>
+          <li><strong>Ctrl+U</strong> Undo last selection change</li>
+          <li><strong>Ctrl+Shift+U</strong> Redo last selection change</li>
+          <li><strong>Alt+F3</strong> Find all and select</li>
+          <li><strong>Ctrl+Click</strong> Add to your selection</li>
+          <li><strong>Alt+Click+Drag</strong> Select a column</li>
+          <li><strong>Alt+Shift+↑</strong> Add Cursor to Previous Line</li>
+          <li><strong>Alt+Shift+↓</strong> Add Cursor to Next Line</li>
+          <li><strong>Ctrl+Alt+L</strong> Split Selection Into Lines</li>
+          <li><strong>Esc</strong> Switch to a Single Selection</li>
+        </ul>
+      </div>
+ 
+      <div class="notes">
+        <h3>Notes</h3>
+        <ul>
+          <li>Splitting your selection into lines gives you multiple cursors</li>
+          <li>Any editing you do will happen at each cursor position</li>
+          <li>Knowing how to move your cursor placement shortcuts will make this tool even more powerful</li>
+        </ul>
+      </div>
+    </section>
+    
+    <section class="clearfix">
+      <h2 class="navigate" tabindex="1">Navigation (Go To)</h2>
+      <div class="shortcuts">
+        <h3>Keyboard Shortcuts</h3>
+        <ul>
+          <li><strong>Ctrl+E</strong> Quick Edit</li>
+          <li><strong>Ctrl+J</strong> Jump to Definition</li>
+          <li><strong>Ctrl+Shift+O</strong> Quick Open </li>
+          <li><strong>Ctrl+T</strong> Go to Definition </li>
+          <li><strong>Ctrl+G</strong> Go to Line </li>
+          <li><strong>Ctrl+K</strong> Quick Docs </li>
+        </ul>
+      </div>
+      <div class="notes">
+        <h3>Notes</h3>
+        <ul>
+          <li>The Quick Open, Find Defintion and Go to Line all use the same panel, so if you pick the wrong one, you can change your mind by typing :, @ or nothing.</li>
+        </ul>
+      </div>
+    </section>  
+    
   </div>
   
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
