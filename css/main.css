@@ -123,6 +123,13 @@ h2 {
   font-size: 2em;
   padding-left: 60px;
   background: url(../img/icons_gray.png) no-repeat 0 3px;
+  margin: .4em 0;
+}
+
+h2:hover, h2:focus {
+  background-image: url(../img/icons_white.png);
+  background-color: #444;
+  color: #fff;
 }
 
 .files    { background-position: 0 -40px; }
@@ -140,6 +147,35 @@ h3 {
   font-weight: 300;
 }
 
+.mac, .pc {
+  width: 40%;
+  height: 50px;
+  margin-left: 5%;
+  background-color: #bbb;
+  float: left;
+  text-align: center;
+  font-size: 2em;
+  line-height: 50px;
+}
+ 
+.mac a, .pc a {
+  color: white;
+  display: block;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+ 
+.active,
+.mac a:focus,
+.mac a:active,
+.mac a:hover, 
+.pc a:focus,
+.pc a:active, 
+.pc a:hover {
+  background-color: #444;
+  outline: none;
+}
+
 .shortcuts, .notes { 
   width: 49%;
   float: left;
@@ -153,14 +189,14 @@ h3 {
   padding-right: 8px;
 }
 
-.notes {
-  background-color: #eee;
-}
-
 .shortcuts ul {
   list-style: none;
   line-height: 2;
   padding-left: 0;
+}
+
+.notes {
+  background-color: #eee;
 }
 
 .notes ul {
@@ -169,6 +205,12 @@ h3 {
 
 .notes li {
   margin-bottom: .5em;
+}
+
+.notes h3 {
+  background: url(../img/icons_gray.png) no-repeat 0 -240px;
+  background-size: 30px;
+  padding-left: 30px;
 }
 
 
