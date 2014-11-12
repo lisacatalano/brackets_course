@@ -1,4 +1,5 @@
 (function ($) {
+  'use strict';
   // Hide all shortcuts and notes
   var hideAll = function() {
     $('.shortcuts').hide();
@@ -13,8 +14,8 @@
     
     $target.addClass('active').siblings().hide();
     $target.animate({
-      width: '90%', 
-      height: '500px', 
+      width: '90%',
+      height: '500px',
       opacity: 0
     }, 1000, function() {
       window.location = url;
@@ -22,10 +23,12 @@
   });
  
   // toggle display of shortcuts when clicking on header
-  $('h2').on('click keypress', function(){
+  $('h2').on('click keypress', function() {
     $(this).parent().find('.shortcuts, .notes').slideToggle();
   });
-    
+  
+  $('h1').on('click', hideAll);
+  
   hideAll();
   
 }(jQuery));
