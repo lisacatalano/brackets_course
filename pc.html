@@ -19,8 +19,12 @@
 </head>
 
 <body>
-  <h1><img src="img/Brackets_icon.svg">Brackets Cheat Sheet – PC</h1>
-  
+  <h1><a href="index.html"><img src="img/Brackets_icon.svg">Brackets Cheat Sheet – PC</a></h1>
+  <div class="actions clearfix">
+    <div class="expand"><a href="#" tabindex="1">Expand All</a></div>
+    <div class="collapse"><a href="#" tabindex="1">Collapse All</a></div>
+  </div>
+
   <div class="main">
     <section class="clearfix">
       <h2 class="workspace" tabindex="1">Workspace</h2>
@@ -34,8 +38,8 @@
           <li><strong>Ctrl+Alt+P</strong> Live Preview</li>
           <li><strong>Ctrl+Shift+C</strong> Live Preview Highlight</li>
           <li><strong>From menu</strong> Turn Line Numbers on/off </li>
-          <li><strong>From menu</strong> Turn Word Wrap on/off </li>        
-        </ul>      
+          <li><strong>From menu</strong> Turn Word Wrap on/off </li>
+        </ul>
       </div>
       <div class="notes">
         <h3>Notes</h3>
@@ -45,10 +49,10 @@
           <li>Change Projects by clicking on the project name and choosing a different project</li>
           <li>Set your tab/spacing preferences at the bottom right corner by clicking on Tab/Spaces and the number</li>
           <li>Look at the bottom status bar for information on Linting Errors, current line/column and more</li>
-        </ul>      
+        </ul>
       </div>
     </section>
-    
+
     <section class="clearfix">
       <h2 class="files" tabindex="1">Opening Closing/Files</h2>
       <div class="shortcuts">
@@ -60,7 +64,7 @@
           <li><strong>Ctrl+O</strong> Open a File</li>
           <li><strong>Ctrl+N</strong> New File</li>
           <li><strong>Ctrl+Alt+R</strong> Switch Project</li>
-          <li><strong>F2</strong>Rename current file</li>    
+          <li><strong>F2</strong>Rename current file</li>
         </ul>
       </div>
 
@@ -71,10 +75,10 @@
           <li>You can open files by right-clicking on them and opening in Brackets</li>
           <li>Setting the default open to Brackets will depend on your operating system</li>
           <li>Right-click on files/folders in sidebar to rename, delete or reveal in Explorer/Finder</li>
-        </ul>    
-      </div>    
+        </ul>
+      </div>
     </section>
-    
+
     <section class="clearfix">
       <h2 class="edit" tabindex="1">Writing/Editing Code</h2>
       <div class="shortcuts">
@@ -96,9 +100,9 @@
         <ul>
           <li>When using a shortcut to copy/delete/cut code, if you have a selection made, that is what will get copied or cut. If you don't have an active selection, the current line will get copied or cut.</li>
           <li>You can get comments to line up with your code if you select all the text on the line and do a block comment instead of a single line comment.</li>
-          <li>When copying a block of code, make sure you select from the beginning of the first line to the end of the last line, instead of just the beginning and the end of text.</li>        
-        </ul>    
-      </div>    
+          <li>When copying a block of code, make sure you select from the beginning of the first line to the end of the last line, instead of just the beginning and the end of text.</li>
+        </ul>
+      </div>
     </section>
 
     <section class="clearfix">
@@ -117,9 +121,9 @@
           <li><strong>Ctrl+Home</strong> Move to the beginning of file</li>
           <li><strong>Ctrl+End</strong> Move to the end of file</li>
           <li><strong>Ctrl+↑</strong> Scroll up</li>
-          <li><strong>Ctrl+↓</strong> Scroll down</li>           
+          <li><strong>Ctrl+↓</strong> Scroll down</li>
         </ul>
-      </div>    
+      </div>
     </section>
 
     <section class="clearfix">
@@ -147,8 +151,8 @@
         <h3>Notes</h3>
         <ul>
           <li>The PC and Mac shortcuts have some more complicated differences than normal for this section, so make sure you understand how it works on your system.</li>
-        </ul>    
-      </div>  
+        </ul>
+      </div>
     </section>
 
     <section class="clearfix">
@@ -163,9 +167,9 @@
           <li><strong>Tab</strong> Indent Right (when lines are selected) </li>
           <li><strong>Shift+Tab</strong> Indent Left</li>
         </ul>
-      </div>    
-    </section>    
-    
+      </div>
+    </section>
+
     <section class="clearfix">
       <h2 class="quick" tabindex="1">Quick Edit</h2>
       <div class="shortcuts">
@@ -187,7 +191,7 @@
           <li>If your cursor is in the original document, hitting ESC will close all Quick Edit windows</li>
           <li>You can access the Color Picker or Transition Editor by starting Quick edit on a color or transition value while in a CSS, Sass or Less file.</li>
         </ul>
-      </div>    
+      </div>
     </section>
 
     <section class="clearfix">
@@ -203,7 +207,7 @@
           <li><strong>Ctrl+Shift+H</strong> Replace in Files</li>
         </ul>
       </div>
- 
+
       <div class="notes">
         <h3>Notes</h3>
         <ul>
@@ -212,8 +216,8 @@
           <li>When finding across files in a folder or project, you can deselect an entire file or specific lines in the file for Batch replacement.</li>
         </ul>
       </div>
-    </section>      
-    
+    </section>
+
     <section class="clearfix">
       <h2 class="multiple" tabindex="1">Multiple Cursors</h2>
       <div class="shortcuts">
@@ -232,7 +236,7 @@
           <li><strong>Esc</strong> Switch to a Single Selection</li>
         </ul>
       </div>
- 
+
       <div class="notes">
         <h3>Notes</h3>
         <ul>
@@ -242,7 +246,7 @@
         </ul>
       </div>
     </section>
-    
+
     <section class="clearfix">
       <h2 class="navigate" tabindex="1">Navigation (Go To)</h2>
       <div class="shortcuts">
@@ -262,10 +266,10 @@
           <li>The Quick Open, Find Defintion and Go to Line all use the same panel, so if you pick the wrong one, you can change your mind by typing :, @ or nothing.</li>
         </ul>
       </div>
-    </section>  
-    
+    </section>
+
   </div>
-  
+
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script>
     window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')
