@@ -108,6 +108,10 @@ body {
   max-width: 1000px;
 }
 
+.main {
+  margin-bottom: 5em;
+}
+
 h1 {
   font-size: 3.5em;
   font-weight: 600;
@@ -147,6 +151,11 @@ h3 {
   font-weight: 300;
 }
 
+h1 a {
+  text-decoration: none;
+  color: #444;
+}
+
 .mac, .pc {
   width: 40%;
   height: 50px;
@@ -157,26 +166,26 @@ h3 {
   font-size: 2em;
   line-height: 50px;
 }
- 
+
 .mac a, .pc a {
   color: white;
   display: block;
   text-decoration: none;
   transition: background-color .3s;
 }
- 
+
 .active,
 .mac a:focus,
 .mac a:active,
-.mac a:hover, 
+.mac a:hover,
 .pc a:focus,
-.pc a:active, 
+.pc a:active,
 .pc a:hover {
   background-color: #444;
   outline: none;
 }
 
-.shortcuts, .notes { 
+.shortcuts, .notes {
   width: 49%;
   float: left;
   padding: 0 10px;
@@ -213,13 +222,25 @@ h3 {
   padding-left: 30px;
 }
 
+.collapse a, .expand a {
+  display: block;
+  width: 7em;
+  margin: 0 .25em 1em 1em;
+  padding: .25em;
+  float: left;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 600;
+  font-size: .9em;
+  background-color: #ccc;
+  color: #444;
+  border-radius: .4em;
+}
 
-
-
-
-
-
-
+.actions a:focus, .actions a:hover {
+  color: white;
+  background-color: #444;
+}
 
 
 
@@ -330,8 +351,31 @@ h3 {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+@media only screen and (max-width: 55em) {
+  /* Style adjustments for viewports that meet the condition */
+  h1 {
+    font-size: 2em;
+    font-weight: 600;
+    margin: .4em auto;
+  }
+  h1 img {
+    width: 50px;
+  }
+  .shortcuts, .notes {
+    width: auto;
+    margin: auto;
+    float: none;
+    padding: 5px 10px;
+    max-width: 40em;
+  }
+  .shortcuts {
+    margin-top: -1.5em;
+  }
+
+  .notes {
+
+  }
+
 }
 
 @media print,
@@ -414,6 +458,7 @@ h3 {
 }
 
 /* ==========================================================================
-   Quick Edit Styles - MOVE 
+   Quick Edit Styles - MOVE
    ========================================================================== */
+
 
