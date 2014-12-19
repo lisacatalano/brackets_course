@@ -354,12 +354,13 @@ h1 a {
 @media only screen and (max-width: 55em) {
   /* Style adjustments for viewports that meet the condition */
   h1 {
-    font-size: 2em;
+    font-size: 1.5em;
+    line-height: 1em;
     font-weight: 600;
     margin: .4em auto;
   }
   h1 img {
-    width: 50px;
+    width: 40px;
   }
   .shortcuts, .notes {
     width: auto;
@@ -372,10 +373,14 @@ h1 a {
     margin-top: -1.5em;
   }
 
-  .notes {
-
+  h2 {
+    font-size: 1.6em;
+    line-height: 1.7em;
+    padding-left: 50px;
+    background: url(../img/icons_gray.png) no-repeat 0 3px;
+    margin: .4em 0;
+    white-space: nowrap;
   }
-
 }
 
 @media print,
